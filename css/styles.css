@@ -193,7 +193,7 @@ span{
 
 .lower-section{
     width: auto;
-    height: 130vh;
+    height: 120vh;
     border: 1 solid red;
     background-color: #F8F8F8;
     display: grid;
@@ -247,14 +247,62 @@ span{
 }
 
 .lower-right img{
-    margin-top: 250px;
+    margin-top: 50px;
+    height: 800px;
+    width: 800px;
     /* width: 100%; */
 }
 
 /* Ishaq */
-.ishaq{    
-    height: 700px;
-    background-color: aqua;
+.ishaq-div{    
+    height: 1050px;
+    background-color: white;
+    align-items: center;
+}
+
+.section4-a{
+    padding-top: 80px;
+    padding-bottom: 20px;
+    color: #000000;
+
+}
+
+.section4-a h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+#horizontal-2{
+    border: 0.5px solid #000;
+    width: 50px;
+    margin-left: 700px;
+    margin-bottom: 50px;
+}
+
+.img-sec-4{
+    height: 550px;
+    width: 1100px;
+    padding-left: 200px;
+    padding-bottom: 30px;
+}
+
+.section-4-b{
+    height: 200px;
+    display: flex;
+}
+
+.text-sec-4 {
+    margin: 40px;
+    padding: 10px;
+    padding-left: 4%;
+}
+
+.text-sec-4 p{
+    color: grey;
+    font-size: 18px;
+    line-height: 1.4;
 }
 
 /* Abdulmannan section 4 */
