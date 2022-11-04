@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -32,7 +37,7 @@ body {
     margin-top: -8px
 }
 
-ul {
+.header ul {
     position: absolute;
     list-style-type: none;
     top: 10px;
@@ -40,11 +45,11 @@ ul {
     overflow: hidden;
 }
 
-li {
+.header li {
     float: left;
 }
 
-li a {
+.header li a {
     display: block;
     color: black;
     padding: 10px 16px;
@@ -52,7 +57,7 @@ li a {
     font-size: 20px;
 }
 
-li a:hover:not(.active) {
+.header li a:hover:not(.active) {
     background-color:rgb(124, 204, 180);
 }
 
@@ -63,7 +68,7 @@ li a:hover:not(.active) {
     top: 15px;
 }
 
-ul .fa-search {
+.header ul .fa-search {
     position: relative;
     font-size: 20px;
     color: black;
@@ -143,7 +148,106 @@ ul .fa-search {
      line-height: 30px;
      letter-spacing: 0.10em;
      color: gray;
-     background-color: white;
-     
+     background-color: white;     
  } 
+
+
+ /*Sikirullahi*/
+ .upper-section{
+    width: auto;
+    height: 280px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5%;
+}
+
+.time-section{
+    display: flex;
+}
+
+.time-section i{
+    font-size: 45px;
+    margin-right: 8px; 
+    color: #BBBBBB;
+}
+
+.time-section h3{
+    color: #000;
+    font-size: 25px;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+.time-section p{
+    color: grey;
+    font-size: 18px;
+}
+
+span{
+    color: #000;
+}
+
+
+
+.lower-section{
+    width: auto;
+    height: 130vh;
+    border: 1 solid red;
+    background-color: #F8F8F8;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+
+.lower-left{
+    margin-top: 40%;
+    margin-left: 20%;
+}
+
+.lower-left h2{
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#horizontal{
+    border: 1px solid #000;
+    width: 50px;
+    margin-left: 0;    
+}
+
+.lower-left p{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color: grey;
+    font-size: 18px;
+}
+
+.lower-left ul{
+   /* list-style: none;*/
+}
+
+
+.lower-left ul li{
+    display: inline-block;
+    margin: 0 2px;
+    font-size: 40px;
+    color: #E2BC12;
+}
+
+#getitnow{
+    padding: 15px 35px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 2 solid grey;   
+}
+
+.lower-right img{
+    margin-top: 250px;
+}
+
 
