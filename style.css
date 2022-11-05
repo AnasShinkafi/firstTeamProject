@@ -47,3 +47,230 @@ body{
     color: black;
 
 }
+/*Uba*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bgd {
+    background-image: url("../images/banner-big.png");
+    height: 800px;
+    display: block;
+    min-height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px) contrast(.8);
+}
+
+.navbar {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.logo {
+    position: absolute;
+    width: 120px;
+    height: 80px;
+    left: 30px;
+    top: 10px;
+    margin-top: -8px
+}
+
+ul {
+    position: absolute;
+    list-style-type: none;
+    top: 10px;
+    left: 380px;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover:not(.active) {
+    background-color:rgb(124, 204, 180);
+}
+
+.fa {
+    position: relative;
+    width: 30px;
+    height: 70px;
+    top: 15px;
+}
+
+ul .fa-search {
+    position: relative;
+    font-size: 20px;
+    color: black;
+}
+
+.nav-sub {
+    position: absolute;
+    right: 210px;
+    height: 79px;
+    width: 80px;
+    border: 1px solid black;
+}
+
+.nav-sub .fa-shopping-cart {
+    font-size: 20px;
+    top: 40px;
+    left: 30px;
+    color: black;
+}
+
+.icon {
+    position: absolute;
+    top: 24px;
+    right: 100px;
+    height: 79px;
+    width: 80px;
+}
+
+
+.enfold {
+    position: absolute;
+    top: 300px;
+    left: 280px;
+    font-size: 120px;
+    font-weight: 400;
+    color: white;
+    font-family:sans-serif;
+ }
+
+ .content > h3 {
+    position: absolute;
+    top: 380px;
+    left: 760px;
+    color: rgb(65, 25, 25);
+    font-size: 30px;
+ }
+
+ .content > h2 {
+    position: absolute;
+    top: 400px;
+    left: 760px;
+    color: rgb(65, 25, 25);
+    font-size: 45px;
+    font-family: sans-serif;
+ }
+
+ .content > .the {
+    position: absolute;
+    left: 280px;
+    top: 470px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.10em;
+    color: white;
+    text-shadow: 1px 1px black;
+} 
+
+ .content > .re {
+     position: absolute;
+     left: 840px;
+     top: 470px;
+     font-family: 'Montserrat';
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 30px;
+     letter-spacing: 0.10em;
+     color: gray;
+     background-color: white;
+ } 
+
+
+
+
+
+/*Uba CSS*/
+.g-feature {
+    background-image: url("file:///C:/Users/Uba%20Rabi'u/Documents/GitHub/firstTeamProject/images/bg-business-office-work.jpg");
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    align-items: center;
+    text-align: center;
+}
+.agf {
+    padding-top: 150px;
+    font-weight: 100;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+.iib {
+    padding: 40px;
+}
+.input-button {
+    padding-left: 5px;
+    height: 60px;
+    width: 150px;
+    border: 2px solid;
+    border-color: rgb(241, 73, 73);
+    font-size: 30px;
+    background-color:rgb(167, 161, 161);
+    color: gray;
+
+}
+.subs-but {
+    height: 60px;
+    width: 160px;
+    background-color:rgb(167, 161, 161);
+    font-style: normal;
+    color: white;
+    text-decoration: white;
+    font-size: 25px;
+}
+.use-cont {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 30px;
+    padding-top: 100px;
+}
+.d-integration {
+    background-color: rgb(241, 237, 237);
+    height: 600px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+.deep {
+    padding-top: 100px;
+    font-weight: 50;
+    font-size: 50px;
+    font-family: sans-serif;
+    line-height: 60px;
+}
+.line {
+    height: 130px;
+    width: 100%;
+}
+.icons {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+.icons div {
+    padding-right: 50px;
+}
