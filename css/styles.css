@@ -33,7 +33,7 @@
     margin-top: -8px
 }
 
-.headers .nav {
+.headers ul {
     position: absolute;
     list-style-type: none;
     top: 20px;
@@ -41,11 +41,11 @@
     overflow: hidden;
 }
 
-.headers .nav1 {
+.headers li {
     float: left;
 }
 
-.headers .nav1 .na {
+.headers li .na {
     display: block;
     color: black;
     padding: 10px 16px;
