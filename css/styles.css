@@ -33,7 +33,7 @@
     margin-top: -8px
 }
 
-.header ul {
+.headers ul {
     position: absolute;
     list-style-type: none;
     top: 20px;
@@ -41,11 +41,11 @@
     overflow: hidden;
 }
 
-.header li {
+.headers li {
     float: left;
 }
 
-.header li a {
+.headers li a {
     display: block;
     color: black;
     padding: 10px 16px;
@@ -53,7 +53,7 @@
     font-size: 20px;
 }
 
-.header li a:hover:not(.active) {
+.headers li a:hover:not(.active) {
     background-color:rgb(124, 204, 180);
 }
 
@@ -64,7 +64,7 @@
     top: 15px;
 }
 
-.header ul .fa-search {
+.headers ul .fa-search {
     position: relative;
     font-size: 20px;
     color: black;
