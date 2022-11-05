@@ -349,7 +349,8 @@ span{
     text-align: center;
     font-size: 42px;
 }
-hr {
+
+.hrrule {
     margin-top: 40px;
     width: 40px;
     display: flex;
@@ -438,43 +439,113 @@ span{
     right: 48%;
    }
 
-   .head1 h1{
+
+/* hamza muhammad */
+.visual-layout {
+    height: 1243px;
+    width: 100%;
+    background-color: #f8f8f8
+    ;
+}
+
+.visual-layout .visual-container {
+    width: 1310px;
+    height: 983px;
+    margin: auto;
+    padding: 130px 0px;
+    background-color: #f8f8f8;
+}
+
+.visual-layout .visual-container .heading {
+    height: 88px;
+    width: 100%;
+    padding-bottom: 20px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 1;
-    color: rgb(55, 50, 50);
-    font-size:30px;
-    padding-top: 50px;
-   }
-
-.bgimage2{
-    display: flex;
-    justify-content: center;
-    align-items:center ;
+}
+.visual-layout .visual-container .heading h1 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.1em;
+    text-align: center;
 }
 
-.bgimage2 img{
-    width:80%;
+.hr {
+    width: 100%;
+    height: 25px;
+    margin: 30px 0px;
 }
 
-.head1 .line{
-   margin-left: 50%;
-   margin-top: 50px; 
-   }
-
-.paragraph{
-    position: relative;
-    display: flex;
-   }
-
-.paragraph p{
-    align-items: center;
-    text-align: start;
-    line-height: 2;
-    width: 530px;
-    margin: 50px 0 100px 0;
+.hr2 {
+    width: 5%;
+    border: 1px solid;
+    margin: auto;
+}
+.img-cont img {
+    background-color: #f8f8f8;
+    height: 567px;
+    width: 1310px;
 }
 
-#p1{
-    margin-left: 200px;
+.bottum-layout {
+    height: 146px;
+    width: 1310px;
+    margin: auto;
+}
+
+.bottum-layout div {
+    height: 146px;
+    width: 616px;
+    float: left;
+    padding-left: 39px;
+}
+.bottum-layout div p {
+    color: #b0b0b0;
+    font-size: 16px;
+    font-family:'Open Sans', sans-serif;
+}
+.tooltip {
+    height: 49px;
+    width: 229px;
+    background-color: white;
+    border-radius: 2px;
+    text-align: center;
+    position: absolute;
+    z-index: 9999999;
+    padding: 12px;
+    margin-top: 22px;
+    margin-left: 365px;
+}
+.tooltip2 {
+    height: 73px;
+    width: 326px;
+    background-color: white;
+    border-radius: 2px;
+    text-align: center;
+    position: absolute;
+    z-index: 9999999;
+    padding: 12px;
+    margin-top: 237px;
+    margin-left: 100px;
+}
+.tooltip3 {
+    height: 49px;
+    width: 226px;
+    background-color: white;
+    border-radius: 2px;
+    text-align: center;
+    position: absolute;
+    z-index: 9999999;
+    padding: 12px;
+    margin-top: 125px;
+    margin-left: 895px;
+}
+.tooltip p, .tooltip2 p, .tooltip3 p  {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: rgb(142, 142, 142);
+}
+.tooltip strong, .tooltip2 strong, .tooltip3 strong  {
+    color: black;
 }
