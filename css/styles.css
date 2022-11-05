@@ -33,7 +33,7 @@
     margin-top: -8px
 }
 
-.headers ul {
+.headers .nav {
     position: absolute;
     list-style-type: none;
     top: 20px;
@@ -41,11 +41,11 @@
     overflow: hidden;
 }
 
-.headers li {
+.headers .nav1 {
     float: left;
 }
 
-.headers li a {
+.headers .nav1 .na {
     display: block;
     color: black;
     padding: 10px 16px;
@@ -471,7 +471,7 @@ span{
     text-align: center;
 }
 
-.hr {
+.hr1 {
     width: 100%;
     height: 25px;
     margin: 30px 0px;
@@ -560,7 +560,7 @@ span{
     font-family: sans-serif;
     font-size: 30px;
 }
-hr{
+.hrk {
     width: 50px;
     position: relative;
     justify-content: center;
