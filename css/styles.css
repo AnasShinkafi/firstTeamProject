@@ -1,10 +1,16 @@
-body {
+* { 
     margin: 0;
     padding: 0;
 }
 
+ /* body {
+    margin: 0;
+    padding: 0;
+}  */
+
 .bgd {
-    background-image: url("../images/banner-big.png");
+    background:linear-gradient(rgba(96, 87, 87, 0.6) ,rgba(96, 87, 87, 0.6)),url(../images/banner-big.png);
+    /* background-image: url( "../images/banner-big.png"); */
     height: 800px;
     display: block;
     min-height: 100%;
@@ -14,7 +20,7 @@ body {
     backdrop-filter: blur(5px) contrast(.8);
 }
 
-.navbar {
+.navbar-items {
     position: fixed;
     height: 80px;
     width: 100%;
@@ -23,7 +29,7 @@ body {
     border: 1px solid black;
 }
 
-.logo {
+.logoh {
     position: absolute;
     width: 120px;
     height: 80px;
@@ -32,19 +38,19 @@ body {
     margin-top: -8px
 }
 
-ul {
+.header ul {
     position: absolute;
     list-style-type: none;
-    top: 10px;
+    top: 20px;
     left: 380px;
     overflow: hidden;
 }
 
-li {
+.header li {
     float: left;
 }
 
-li a {
+.header li a {
     display: block;
     color: black;
     padding: 10px 16px;
@@ -52,7 +58,7 @@ li a {
     font-size: 20px;
 }
 
-li a:hover:not(.active) {
+.header li a:hover:not(.active) {
     background-color:rgb(124, 204, 180);
 }
 
@@ -63,7 +69,7 @@ li a:hover:not(.active) {
     top: 15px;
 }
 
-ul .fa-search {
+.header ul .fa-search {
     position: relative;
     font-size: 20px;
     color: black;
@@ -92,10 +98,9 @@ ul .fa-search {
     width: 80px;
 }
 
-
-.enfold {
+.enfold-text {
     position: absolute;
-    top: 300px;
+    top: 350px;
     left: 280px;
     font-size: 120px;
     font-weight: 400;
@@ -106,16 +111,16 @@ ul .fa-search {
  .content > h3 {
     position: absolute;
     top: 380px;
-    left: 760px;
-    color: rgb(65, 25, 25);
+    left: 770px;
+    color: rgb(68, 66, 66);
     font-size: 30px;
  }
 
  .content > h2 {
     position: absolute;
     top: 400px;
-    left: 760px;
-    color: rgb(65, 25, 25);
+    left: 770px;
+    color: rgb(68, 66, 66);
     font-size: 45px;
     font-family: sans-serif;
  }
@@ -142,8 +147,337 @@ ul .fa-search {
      font-size: 20px;
      line-height: 30px;
      letter-spacing: 0.10em;
-     color: gray;
-     background-color: white;
-     
+     color: rgb(68, 66, 66);
+     background-color: white;     
  } 
 
+
+ /*Sikirullahi*/
+ .upper-section{
+    width: auto;
+    height: 280px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5%;
+}
+
+.time-section{
+    display: flex;
+}
+
+.time-section i{
+    font-size: 45px;
+    margin-right: 8px; 
+    color: #BBBBBB;
+}
+
+.time-section h3{
+    color: #000;
+    font-size: 25px;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+.time-section p{
+    color: grey;
+    font-size: 18px;
+}
+
+span{
+    color: #000;
+}
+
+
+
+.lower-section{
+    width: auto;
+    height: 120vh;
+    border: 1 solid red;
+    background-color: #F8F8F8;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+
+.lower-left{
+    margin-top: 40%;
+    margin-left: 20%;
+}
+
+.lower-left h2{
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#horizontal{
+    border: 1px solid #000;
+    width: 50px;
+    margin-left: 0;    
+}
+
+.lower-left p{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color: grey;
+    font-size: 18px;
+}
+
+.lower-left ul{
+   list-style: none;
+}
+
+
+.lower-left ul li{
+    display: inline-block;
+    margin: 0 2px;
+    font-size: 40px;
+    color: #E2BC12;
+}
+
+#getitnow{
+    padding: 15px 35px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 2 solid grey;   
+}
+
+.lower-right img{
+    margin-top: 50px;
+    height: 800px;
+    width: 800px;
+    /* width: 100%; */
+}
+
+/* Ishaq */
+.ishaq-div{    
+    height: 1050px;
+    background-color: white;
+    align-items: center;
+}
+
+.section4-a{
+    padding-top: 80px;
+    padding-bottom: 20px;
+    color: #000000;
+
+}
+
+.section4-a h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+#horizontal-2{
+    border: 0.5px solid #000;
+    width: 50px;
+    margin-left: 700px;
+    margin-bottom: 50px;
+}
+
+.img-sec-4{
+    height: 550px;
+    width: 1100px;
+    padding-left: 200px;
+    padding-bottom: 30px;
+}
+
+.section-4-b{
+    height: 200px;
+    display: flex;
+}
+
+.text-sec-4 {
+    margin: 40px;
+    padding: 10px;
+    padding-left: 4%;
+}
+
+.text-sec-4 p{
+    color: grey;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+/* Abdulmannan section 4 */
+
+.amt-feature-cont {
+    background-color: #35383c;
+    height: 850px;
+}
+.amt-feature-gallery {
+    width: 98%;
+    margin: auto;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.amt-boxes {
+    width: 15.68%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    border: 0.5px solid white;
+}
+.amt-pic3 {    
+    background-image: url("../css/images/pic3.png");
+    object-fit: cover;
+}
+.amt-pic1 {
+    background-image: url("../css/images/pic1.png");
+}
+.amt-pic2 {
+    background-image: url("../css/images/pic2.png");
+}
+.amt-pic4 {
+    background-image: url(../css/images/pic4.png);
+}
+.amt-pic5 {
+    background-image: url("../css/images/pic5.png");
+}
+.amt-pic6 {
+    background-image: url("../css/images/pic6.png");
+}
+
+.amt-feature-headings {
+    margin-top: 125px;
+    color: white;
+    text-align: center;
+    font-size: 42px;
+}
+hr {
+    margin-top: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+.amt-feature-list {
+    padding-top: 50px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.amt-icon-text {
+    display: flex;
+    margin-top: 3px;
+}
+.amt-icon {
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 3px;
+}
+.amt-text {
+    padding-left: 8px;
+    color: #bdc5ce;
+    font-size: larger;
+}
+
+/**Muhammad-Bello**/
+
+.row-six{
+    position: relative;
+    display: flex;
+}
+
+.texts{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.texts h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1;
+    color: rgb(55, 50, 50);
+    font-size:30px;
+    margin-top: 140px;
+    margin-bottom: 30px;
+}
+
+.line{
+    width: 45px;
+    height: 1px;
+    background-color: rgb(49, 49, 49);
+    margin-bottom: 30px;
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+}
+
+#paragraph1{
+    margin-bottom: 25px;
+}
+
+span{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.second{
+    background-color: rgb(248, 244, 244);
+    position: relative;
+}
+
+.clipath{
+    clip-path: polygon(0 0, 52% 99%, 100% 0);
+    width: 30px;
+    height:20px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    right: 48%;
+   }
+
+   .head1 h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1;
+    color: rgb(55, 50, 50);
+    font-size:30px;
+    padding-top: 50px;
+   }
+
+.bgimage2{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.bgimage2 img{
+    width:80%;
+}
+
+.head1 .line{
+   margin-left: 50%;
+   margin-top: 50px; 
+   }
+
+.paragraph{
+    position: relative;
+    display: flex;
+   }
+
+.paragraph p{
+    align-items: center;
+    text-align: start;
+    line-height: 2;
+    width: 530px;
+    margin: 50px 0 100px 0;
+}
+
+#p1{
+    margin-left: 200px;
+}
