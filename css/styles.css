@@ -2,12 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
- /* body {
-    margin: 0;
-    padding: 0;
-}  */
-
+/* ANAS ISAH */
 .bgd {
     background:linear-gradient(rgba(96, 87, 87, 0.6) ,rgba(96, 87, 87, 0.6)),url(../images/banner-big.png);
     /* background-image: url( "../images/banner-big.png"); */
@@ -148,6 +143,7 @@
      line-height: 30px;
      letter-spacing: 0.10em;
      color: rgb(68, 66, 66);
+     color: gray;
      background-color: white;     
  } 
 
@@ -229,6 +225,7 @@ span{
 
 .lower-left ul{
    list-style: none;
+   /* list-style: none;*/
 }
 
 
