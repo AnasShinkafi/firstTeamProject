@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* ANAS ISAH */
 .bgd {
     background:linear-gradient(rgba(96, 87, 87, 0.6) ,rgba(96, 87, 87, 0.6)),url(../images/banner-big.png);
@@ -612,9 +613,6 @@ span{
 .f1{
     background-color: rgba(3, 3, 3, 0.7);
     display: flex;
-    /* color: white; */
-    /* padding-top: 70px;
-    padding-left: 50px; */
     font-size: 15px;
     height: 250px;
 }
@@ -637,8 +635,6 @@ span{
 .f12{
     margin-left: 70px;
     padding-top: 20px;
-    /* position: relative; */
-    /* left: ; This settings also cause too much overlap */
     bottom: 132px;
 }
 
@@ -650,8 +646,6 @@ span{
 .f13{
     margin-left: 70px;
     padding-top: 20px;
-    /* position: relative; */
-    /* left: ; This settings also cause too much overlap */
     bottom: 273px;
 }
 
@@ -663,8 +657,6 @@ span{
 .f14{
     margin-left: 70px;
     padding-top: 20px;
-    /* position: relative; */
-    /* left: ; This settings also cause too much overlap */
     bottom: 385px;
 }
 
@@ -691,7 +683,6 @@ span{
     align-items: center;
     font: 100px;
     position: relative;
-    /* left: ; This settings also cause too much overlap */
     bottom: 40px;
 }
 
