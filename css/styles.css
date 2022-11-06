@@ -679,10 +679,7 @@ span{
     color: rgb(243, 243, 247);
     cursor: pointer;
 }
-body{
-    margin: 0;
-    padding: 0;
-}
+
 .ib{ 
     width: 100%;
     text-align: center;
