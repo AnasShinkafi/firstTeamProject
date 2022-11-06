@@ -679,55 +679,6 @@ span{
     color: rgb(243, 243, 247);
     cursor: pointer;
 }
-body{
-    margin: 0;
-    padding: 0;
-}
-.ib{ 
-    width: 100%;
-    text-align: center;
-
-}
-.br{
-    display: inline-block;
-    vertical-align: middle;
-    border-spacing: 50px;
-
-}
-.ra{ display: inline-block;
-    font-size: large;
-    font-style: arial;
-    color: grey;
-    font: 50px;
-    background-color: white;
-    margin: 0;
-    padding: 0;
-    vertical-align: middle;
-    padding-left: 0;
-    margin-left: 30px;
-
-
-}
-#ah{ color:white;
-    background-color: blueviolet;
-    border: none;
-    font-size: 15px;
-    height: 30px;
-    width: 300px;
-    float: left;
-    margin-left: 20px;
-
-}
-#ah:hover{ background-color: rgba(137, 43, 226, 0.829);
-      color: white;
-}
-.him{ background-image: url(./images/Web\ capture_3-11-2022_16218_preview.themeforest.net.jpeg);
-    background-repeat: none;
-    height: 400px;
-    width: 100%;
-    color: black;
-
-}
 
 .ib{ 
     width: 100%;
@@ -774,5 +725,126 @@ body{
     color: black;
 
 }
+
+.ib{ 
+    width: 100%;
+    text-align: center;
+
+}
+.br{
+    display: inline-block;
+    vertical-align: middle;
+    border-spacing: 50px;
+
+}
+.ra{ display: inline-block;
+    font-size: large;
+    font-style: arial;
+    color: grey;
+    font: 50px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    padding-left: 0;
+    margin-left: 30px;
+
+
+}
+#ah{ color:white;
+    background-color: blueviolet;
+    border: none;
+    font-size: 15px;
+    height: 30px;
+    width: 300px;
+    float: left;
+    margin-left: 20px;
+
+}
+#ah:hover{ background-color: rgba(137, 43, 226, 0.829);
+      color: white;
+}
+.him{ background-image: url(./images/Web\ capture_3-11-2022_16218_preview.themeforest.net.jpeg);
+    background-repeat: none;
+    height: 400px;
+    width: 100%;
+    color: black;
+}
+
+/*Uba CSS*/
+.g-feature {
+    background-image: url("file:///C:/Users/Uba%20Rabi'u/Documents/GitHub/firstTeamProject/images/bg-business-office-work.jpg");
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    align-items: center;
+    text-align: center;
+}
+.agf {
+    padding-top: 150px;
+    font-weight: 100;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+.iib {
+    padding: 40px;
+}
+.input-button {
+    padding-left: 5px;
+    height: 60px;
+    width: 150px;
+    border: 2px solid;
+    border-color: rgb(241, 73, 73);
+    font-size: 30px;
+    background-color:rgb(167, 161, 161);
+    color: gray;
+
+}
+.subs-but {
+    height: 60px;
+    width: 160px;
+    background-color:rgb(167, 161, 161);
+    font-style: normal;
+    color: white;
+    text-decoration: white;
+    font-size: 25px;
+}
+.use-cont {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 30px;
+    padding-top: 100px;
+}
+.d-integration {
+    background-color: rgb(241, 237, 237);
+    height: 600px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+.deep {
+    padding-top: 100px;
+    font-weight: 50;
+    font-size: 50px;
+    font-family: sans-serif;
+    line-height: 60px;
+}
+.line {
+    height: 130px;
+    width: 100%;
+}
+.icons {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+.icons div {
+    padding-right: 50px;
+}
+
 
 
