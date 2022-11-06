@@ -1,6 +1,7 @@
 * { 
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 /* ANAS ISAH */
 .bgd {
@@ -184,8 +185,6 @@ span{
     color: #000;
 }
 
-
-
 .lower-section{
     width: auto;
     height: 120vh;
@@ -195,8 +194,6 @@ span{
     grid-template-columns: 1fr 1fr;
     
 }
-
-
 
 .lower-left{
     margin-top: 40%;
@@ -250,6 +247,7 @@ span{
 }
 
 /* Ishaq */
+
 .ishaq-div{    
     height: 1050px;
     background-color: white;
@@ -307,6 +305,7 @@ span{
     background-color: #35383c;
     height: 850px;
 }
+
 .amt-feature-gallery {
     width: 98%;
     margin: auto;
@@ -315,6 +314,7 @@ span{
     justify-content: space-between;
     padding-top: 15px;
 }
+
 .amt-boxes {
     width: 15.68%;
     height: 100%;
@@ -322,22 +322,28 @@ span{
     background-size: cover;
     border: 0.5px solid white;
 }
+
 .amt-pic3 {    
     background-image: url("../css/images/pic3.png");
     object-fit: cover;
 }
+
 .amt-pic1 {
     background-image: url("../css/images/pic1.png");
 }
+
 .amt-pic2 {
     background-image: url("../css/images/pic2.png");
 }
+
 .amt-pic4 {
     background-image: url(../css/images/pic4.png);
 }
+
 .amt-pic5 {
     background-image: url("../css/images/pic5.png");
 }
+
 .amt-pic6 {
     background-image: url("../css/images/pic6.png");
 }
@@ -357,6 +363,7 @@ span{
     text-align: center;
     background-color: white;
 }
+
 .amt-feature-list {
     padding-top: 50px;
     width: 85%;
@@ -364,16 +371,19 @@ span{
     display: flex;
     justify-content: space-between;
 }
+
 .amt-icon-text {
     display: flex;
     margin-top: 3px;
 }
+
 .amt-icon {
     color: white;
     font-size: 18px;
     font-weight: bolder;
     margin-top: 3px;
 }
+
 .amt-text {
     padding-left: 8px;
     color: #bdc5ce;
@@ -499,11 +509,13 @@ span{
     float: left;
     padding-left: 39px;
 }
+
 .bottum-layout div p {
     color: #b0b0b0;
     font-size: 16px;
     font-family:'Open Sans', sans-serif;
 }
+
 .tooltip {
     height: 49px;
     width: 229px;
@@ -516,6 +528,7 @@ span{
     margin-top: 22px;
     margin-left: 365px;
 }
+
 .tooltip2 {
     height: 73px;
     width: 326px;
@@ -528,6 +541,7 @@ span{
     margin-top: 237px;
     margin-left: 100px;
 }
+
 .tooltip3 {
     height: 49px;
     width: 226px;
@@ -540,19 +554,23 @@ span{
     margin-top: 125px;
     margin-left: 895px;
 }
+
 .tooltip p, .tooltip2 p, .tooltip3 p  {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color: rgb(142, 142, 142);
 }
+
 .tooltip strong, .tooltip2 strong, .tooltip3 strong  {
     color: black;
 }
+
 #p1{
     margin-left: 200px;
 }
 
 /**kamaluddeen**/
+
 .f0{
     margin: 20px;
     padding: 20px;
@@ -560,6 +578,7 @@ span{
     font-family: sans-serif;
     font-size: 30px;
 }
+
 .hrk {
     width: 50px;
     position: relative;
@@ -568,6 +587,7 @@ span{
     left: 600px;
     background-color: black;
 }
+
 .f01{
     margin: 20px;
     margin-top: 40px;
@@ -578,6 +598,7 @@ span{
     color: rgba(121, 116, 116,0.7);
     line-height: 27px;
 }
+
 .image{
     align-items: center;
     justify-content: center;
@@ -620,6 +641,7 @@ span{
     /* left: ; This settings also cause too much overlap */
     bottom: 132px;
 }
+
 .f12 h3{
     color: grey;
     margin-bottom: 20px;
@@ -632,6 +654,7 @@ span{
     /* left: ; This settings also cause too much overlap */
     bottom: 273px;
 }
+
 .f13 h3{
     color: grey;
     margin-bottom: 20px;
@@ -644,6 +667,7 @@ span{
     /* left: ; This settings also cause too much overlap */
     bottom: 385px;
 }
+
 .f14 h3{
     color: grey;
     margin-bottom: 20px;
@@ -654,10 +678,12 @@ span{
     color: white;
     font-size: 10px;
 }
+
 .f2 p{
     margin-left: 50px;
     padding: 20px;
 }
+
 .ul{
     justify-content: center;
     display: flex;
@@ -668,11 +694,13 @@ span{
     /* left: ; This settings also cause too much overlap */
     bottom: 40px;
 }
+
 .ul .li{
     list-style: none;
     margin-left: 26px;
     font-size: 10px;
 }
+
 .ul .li a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -680,6 +708,7 @@ span{
     color: rgb(12, 11, 11);
     transition: 0.3s ease-in-out;
 }
+
 .ul .li a:hover{
     background-color: rgb(12, 12, 12);
     color: rgb(243, 243, 247);
@@ -690,12 +719,13 @@ span{
     width: 100%;
     text-align: center;
 }
+
 .br{
     display: inline-block;
     vertical-align: middle;
     border-spacing: 50px;
-
 }
+
 .ra{ display: inline-block;
     font-size: large;
     font-style: arial;
@@ -707,9 +737,8 @@ span{
     vertical-align: middle;
     padding-left: 0;
     margin-left: 30px;
-
-
 }
+
 #ah{ color:white;
     background-color: blueviolet;
     border: none;
@@ -720,9 +749,11 @@ span{
     margin-left: 20px;
 
 }
+
 #ah:hover{ background-color: rgba(137, 43, 226, 0.829);
-      color: white;
+    color: white;
 }
+
 .him{ background-image: url(./images/Web\ capture_3-11-2022_16218_preview.themeforest.net.jpeg);
     background-repeat: none;
     height: 400px;
@@ -736,12 +767,14 @@ span{
     text-align: center;
 
 }
+
 .br{
     display: inline-block;
     vertical-align: middle;
     border-spacing: 50px;
 
 }
+
 .ra{ display: inline-block;
     font-size: large;
     font-style: arial;
@@ -753,9 +786,8 @@ span{
     vertical-align: middle;
     padding-left: 0;
     margin-left: 30px;
-
-
 }
+
 #ah{ color:white;
     background-color: blueviolet;
     border: none;
@@ -764,11 +796,12 @@ span{
     width: 300px;
     float: left;
     margin-left: 20px;
+}
 
-}
 #ah:hover{ background-color: rgba(137, 43, 226, 0.829);
-      color: white;
+    color: white;
 }
+
 .him{ background-image: url(./images/Web\ capture_3-11-2022_16218_preview.themeforest.net.jpeg);
     background-repeat: none;
     height: 400px;
@@ -796,9 +829,11 @@ span{
     color: white;
     font-family: Arial;
 }
+
 .iib {
     padding: 40px;
 }
+
 .input-button {
     padding-left: 5px;
     height: 40px;
@@ -808,8 +843,8 @@ span{
     font-size: 20px;
     background-color:transparent;
     color: rgb(255, 255, 255);
-
 }
+
 .subs-but {
     height: 40px;
     width: 250px;
@@ -822,6 +857,7 @@ span{
     text-decoration: white;
     font-size: 15px;
 }
+
 .use-cont {
     font-weight: 50;
     font-size: 15px;
@@ -830,6 +866,7 @@ span{
     color: white;
     padding-top: 6px;
 }
+
 .d-integration {
     background-color: rgb(241, 237, 237);
     height: 400px;
@@ -837,6 +874,7 @@ span{
     align-items: center;
     text-align: center;
 }
+
 .deep {
     padding-top: 50px;
     font-weight: 50;
@@ -845,17 +883,18 @@ span{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 28px;
 }
+
 .line {
     height: 130px;
     width: 100%;
 }
+
 .icons {
     display: flex;
     width: 100%;
     align-items: center;
     text-align: center;
 }
-
 
 .icons div {
     /* The first part of the problem was the padding here, so i was able to fix that... */
