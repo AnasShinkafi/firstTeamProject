@@ -6,7 +6,7 @@
 
 /* ANAS ISAH */
 .bgd {
-    background:linear-gradient(rgba(96, 87, 87, 0.6) ,rgba(96, 87, 87, 0.6)),url(../images/banner-big.png);
+    background:linear-gradient(rgba(96, 90, 87, 0.5) ,rgba(96, 90, 87, 0.5)),url(../images/banner-big.png);
     height: 800px;
     display: block;
     min-height: 100%;
@@ -21,8 +21,7 @@
     height: 80px;
     width: 100%;
     top: 0px;
-    background-color: white;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 .logoh {
@@ -38,7 +37,7 @@
     position: absolute;
     list-style-type: none;
     top: 20px;
-    left: 380px;
+    left: 520px;
     overflow: hidden;
 }
 
@@ -48,8 +47,8 @@
 
 .headers li a {
     display: block;
-    color: black;
-    padding: 10px 16px;
+    color: white;
+    padding: 10px 6px;
     text-decoration: none;
     font-size: 20px;
 }
@@ -68,7 +67,8 @@
 .headers ul .fa-search {
     position: relative;
     font-size: 20px;
-    color: black;
+    color: white;
+    left: 12px;
 }
 
 .nav-sub {
@@ -76,14 +76,14 @@
     right: 210px;
     height: 79px;
     width: 80px;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 .nav-sub .fa-shopping-cart {
     font-size: 20px;
     top: 40px;
     left: 30px;
-    color: black;
+    color: white;
 }
 
 .icon {
@@ -92,30 +92,37 @@
     right: 100px;
     height: 79px;
     width: 80px;
+    color: white;
+}
+.icon:hover {
+    color: rgb(39, 166, 240);
 }
 
 .enfold-text {
     position: absolute;
+    cursor: pointer;
     top: 350px;
     left: 280px;
-    font-size: 120px;
+    font-size: 142.128px;
     font-weight: 400;
-    color: white;
-    font-family:sans-serif;
+    color: rgb(225, 225, 225);
+    font-family:Arial;
+    letter-spacing: normal;
+    display: block;
  }
 
  .content > h3 {
     position: absolute;
-    top: 380px;
-    left: 770px;
+    top: 385px;
+    left: 850px;
     color: rgb(68, 66, 66);
     font-size: 30px;
  }
 
  .content > h2 {
     position: absolute;
-    top: 400px;
-    left: 770px;
+    top: 430px;
+    left: 850px;
     color: rgb(68, 66, 66);
     font-size: 45px;
     font-family: sans-serif;
@@ -124,11 +131,12 @@
  .content > .the {
     position: absolute;
     left: 280px;
-    top: 470px;
-    font-family: 'Montserrat';
-    font-weight: 400;
+    top: 500px;
+    font-family: 'open sans';
+    font-weight: 600;
     font-size: 20px;
     line-height: 30px;
+    text-size-adjust: 100%;
     letter-spacing: 0.10em;
     color: white;
     text-shadow: 1px 1px black;
@@ -137,7 +145,7 @@
  .content > .re {
      position: absolute;
      left: 840px;
-     top: 470px;
+     top: 500px;
      font-family: 'Montserrat';
      font-weight: 400;
      font-size: 20px;
@@ -896,9 +904,6 @@ span{
     text-align: center;
 }
 
-=======
-    text-align: center;
-}
 .visual-layout .visual-container .heading h1 {
     font-size: 40px;
     letter-spacing: 1px;
