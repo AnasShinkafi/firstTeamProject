@@ -304,7 +304,7 @@ span{
 
 .amt-feature-cont {
     background-color: #35383c;
-    height: 850px;
+    height: 900px;
 }
 
 .amt-feature-gallery {
@@ -402,7 +402,7 @@ span{
     border-right: 23px solid transparent;
     border-top: 23px solid #35383c;
     position: relative;
-    bottom: -4.777em;
+    bottom: -7.777em;
     left: 48%;
     z-index: 1;
 }
