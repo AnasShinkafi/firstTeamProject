@@ -6,14 +6,17 @@
 
 /* ANAS ISAH */
 .bgd {
-    background:linear-gradient(rgba(96, 90, 87, 0.5) ,rgba(96, 90, 87, 0.5)),url(../images/banner-big.png);
+    /* background:linear-gradient(rgba(82, 75, 71, 0.5) ,rgba(66, 55, 50, 0.5)),url(../images/banner-big.png); */
+    background-image: url(../images/banner-big.png);
     height: 800px;
     display: block;
     min-height: 100%;
     width: 100%;
+    z-index: auto;
+    background-color: rgba(0, 0, 0, 0.6);
     background-size: cover;
     background-position: center;
-    backdrop-filter: blur(5px) contrast(.8);
+    backdrop-filter: blur(50) contrast(50);
 }
 
 .navbar-items {
@@ -115,7 +118,7 @@
     position: absolute;
     top: 385px;
     left: 850px;
-    color: rgb(68, 66, 66);
+    color: rgb(82, 79, 79);
     font-size: 30px;
  }
 
@@ -123,7 +126,7 @@
     position: absolute;
     top: 430px;
     left: 850px;
-    color: rgb(68, 66, 66);
+    color: rgb(82, 79, 79);
     font-size: 45px;
     font-family: sans-serif;
  }
@@ -151,8 +154,7 @@
      font-size: 20px;
      line-height: 30px;
      letter-spacing: 0.10em;
-     color: rgb(68, 66, 66);
-     color: gray;
+     color: rgb(82, 79, 79);
      background-color: white;     
  } 
 
@@ -312,13 +314,13 @@ span{
 
 .amt-feature-cont {
     background-color: #35383c;
-    height: 850px;
+    height: 900px;
 }
 
 .amt-feature-gallery {
     width: 98%;
     margin: auto;
-    height: 160px;
+    height: 170.859px;
     display: flex;
     justify-content: space-between;
     padding-top: 15px;
@@ -329,7 +331,8 @@ span{
     height: 100%;
     object-fit: cover;
     background-size: cover;
-    border: 0.5px solid white;
+    background-position: center center;
+    opacity: 0.702271;
 }
 
 .amt-pic3 {    
@@ -358,19 +361,21 @@ span{
 }
 
 .amt-feature-headings {
-    margin-top: 125px;
-    color: white;
+    margin-top: 145px;
+    color: #ffffff;
     text-align: center;
-    font-size: 42px;
+    font-size: 40px;
+    font-family: 'open sans',Helvetica,Arial,sans-serif;
+    line-height: 44px;
+    letter-spacing: 1px;
+    text-size-adjust: 100%;
 }
 
-.hrrule {
-    margin-top: 40px;
-    width: 40px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: white;
+#horizontal-3{
+    border: 0.5px solid #ffffff;
+    width: 50px;
+    margin-left: 47%;
+    margin-top: 55px;
 }
 
 .amt-feature-list {
@@ -387,7 +392,7 @@ span{
 }
 
 .amt-icon {
-    color: white;
+    color: #ffffff;
     font-size: 18px;
     font-weight: bolder;
     margin-top: 3px;
@@ -395,9 +400,23 @@ span{
 
 .amt-text {
     padding-left: 8px;
-    color: #bdc5ce;
-    font-size: larger;
+    color: #b0b0b0;
+    font-size: 18px;
+    font-family: 'open sans',Helvetica,Arial,sans-serif;
+    line-height: 1.45em;
 }
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 23px solid transparent;
+    border-right: 23px solid transparent;
+    border-top: 23px solid #35383c;
+    position: relative;
+    bottom: -7.777em;
+    left: 48%;
+    z-index: 1;
+}
+
 
 /**Muhammad-Bello**/
 
@@ -452,7 +471,8 @@ span{
     width: 30px;
     height:20px;
     background-color: rgb(255, 255, 255);
-    position: absolute;
+    position: relative;
+    z-index: -1;
     top: 0;
     right: 48%;
    }
@@ -897,11 +917,12 @@ span{
 }
 
 .icons {
-    padding-top: 150px;
+    padding-top: 0px;
     display: flex;
-    width: 100%;
+    width: 100%;  
     align-items: center;
     text-align: center;
+    /* background-image: url(../images/banner-big.png); */
 }
 
 .visual-layout .visual-container .heading h1 {
