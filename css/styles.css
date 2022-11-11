@@ -310,7 +310,7 @@ span{
 .amt-feature-gallery {
     width: 98%;
     margin: auto;
-    height: 160px;
+    height: 170.859px;
     display: flex;
     justify-content: space-between;
     padding-top: 15px;
@@ -321,7 +321,8 @@ span{
     height: 100%;
     object-fit: cover;
     background-size: cover;
-    border: 0.5px solid white;
+    background-position: center center;
+    opacity: 0.702271;
 }
 
 .amt-pic3 {    
@@ -350,19 +351,21 @@ span{
 }
 
 .amt-feature-headings {
-    margin-top: 125px;
-    color: white;
+    margin-top: 145px;
+    color: #ffffff;
     text-align: center;
-    font-size: 42px;
+    font-size: 40px;
+    font-family: 'open sans',Helvetica,Arial,sans-serif;
+    line-height: 44px;
+    letter-spacing: 1px;
+    text-size-adjust: 100%;
 }
 
-.hrrule {
-    margin-top: 40px;
-    width: 40px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: white;
+#horizontal-3{
+    border: 0.5px solid #ffffff;
+    width: 50px;
+    margin-left: 47%;
+    margin-top: 55px;
 }
 
 .amt-feature-list {
@@ -379,7 +382,7 @@ span{
 }
 
 .amt-icon {
-    color: white;
+    color: #ffffff;
     font-size: 18px;
     font-weight: bolder;
     margin-top: 3px;
@@ -387,9 +390,23 @@ span{
 
 .amt-text {
     padding-left: 8px;
-    color: #bdc5ce;
-    font-size: larger;
+    color: #b0b0b0;
+    font-size: 18px;
+    font-family: 'open sans',Helvetica,Arial,sans-serif;
+    line-height: 1.45em;
 }
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 23px solid transparent;
+    border-right: 23px solid transparent;
+    border-top: 23px solid #35383c;
+    position: relative;
+    bottom: -4.777em;
+    left: 48%;
+    z-index: 1;
+}
+
 
 /**Muhammad-Bello**/
 
